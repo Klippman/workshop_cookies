@@ -1,0 +1,76 @@
+body {
+    background-image: url("images/rack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+
+/* code below is for the cookie buttons */
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/*--------------------------------------*/
+
+#batch {
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#box1 {
+    height: 200px;
+    width: 250px;
+    background-color: black;
+    color: lightskyblue;
+    border-radius: 0px 150px;
+    text-decoration: underline overline;
+    outline: none;
+}
+
+#box2 {
+    height: 200px;
+    width: 250px;
+    float: right;
+    background-color: black;
+    color: lightskyblue;
+    border-radius: 150px 0px 150px 0px;
+    text-decoration: underline overline;
+    outline: none;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    /* margin-right: 2px; */
+    box-shadow: 10px lightslategray;
+}
+
+@media all and (max-width: 524px){
+    body {
+        background-image: url("images/paper.jpg");
+        background-size: cover;
+        background-repeat: no-repeat, repeat;
+    }
+
+    #box1 {
+        width: 175px;
+    }
+
+    #box2{
+        width: 175px; 
+    }
+}
+
+@media all and (min-width: 525px) and (max-width: 923px){
+    body {
+        background-image: url("images/plate3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat, repeat;
+    }
+
+    #batch {
+        margin-top: 0%;
+    }
+}
